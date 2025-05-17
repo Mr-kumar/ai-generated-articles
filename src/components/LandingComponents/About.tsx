@@ -7,9 +7,10 @@ export function About() {
       <div className="container mx-auto px-6 md:px-12 max-w-5xl">
         <h2 className="text-4xl font-extrabold text-center mb-6">About Us</h2>
         <p className="text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10">
-          We're on a mission to revolutionize content creation through the power
-          of artificial intelligence. Our platform empowers writers, marketers,
-          and businesses to generate high-quality, engaging articles in seconds.
+          We&apos;re on a mission to revolutionize content creation through the
+          power of artificial intelligence. Our platform empowers writers,
+          marketers, and businesses to generate high-quality, engaging articles
+          in seconds.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -72,8 +73,8 @@ export function About() {
           </h3>
           <blockquote className="bg-white rounded-lg shadow-lg p-6 text-center">
             <p className="text-lg italic mb-4">
-              "This platform has transformed the way I create content. It's
-              fast, efficient, and the quality is outstanding!"
+              &quot;This platform has transformed the way I create content.
+              It&apos;s fast, efficient, and the quality is outstanding!&quot;
             </p>
             <cite className="font-semibold">- Jane Doe, Content Marketer</cite>
           </blockquote>

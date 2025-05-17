@@ -1,6 +1,8 @@
 // app/components/Testimonials.tsx
 "use client";
 
+import Image from "next/image";
+
 type Testimonial = {
   id: number;
   name: string;
@@ -47,11 +49,13 @@ export function Testimonials() {
               key={id}
               className="p-6 border rounded-lg shadow hover:shadow-lg transition text-left"
             >
-              <p className="mb-4 italic">"{feedback}"</p>
+              <p className="mb-4 italic">&quot;{feedback}&quot;</p>
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src={photo}
                   alt={`${name} photo`}
+                  width={48}
+                  height={48}
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>

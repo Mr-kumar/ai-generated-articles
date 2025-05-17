@@ -1,9 +1,6 @@
 // app/components/Hero.tsx
 "use client";
 
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
 export function Hero() {
   return (
     <section className="bg-gradient-to-r from-indigo-600 via-purple-700 to-pink-600 text-white min-h-[80vh] flex items-center">
